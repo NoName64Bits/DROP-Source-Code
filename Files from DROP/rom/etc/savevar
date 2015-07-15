@@ -1,0 +1,15 @@
+#!/bin/sh
+
+uci add system button
+uci set system.@button[-1].button=wps
+uci set system.@button[-1].action=pressed
+uci set system.@button[-1].handler='/usr/sbin/disruptor'
+uci add system button
+uci set system.@button[-1].button=BTN_0
+uci set system.@button[-1].action=pressed
+uci set system.@button[-1].handler='/wispi/startkarma.sh'
+uci add system button
+uci set system.@button[-1].button=BTN_0
+uci set system.@button[-1].action=released
+uci set system.@button[-1].handler='/wispi/stopkarma.sh'
+uci commit system

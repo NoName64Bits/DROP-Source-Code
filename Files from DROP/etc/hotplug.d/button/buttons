@@ -1,0 +1,3 @@
+#!/bin/sh
+logger $BUTTON
+logger $ACTION

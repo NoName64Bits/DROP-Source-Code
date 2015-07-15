@@ -1,0 +1,199 @@
+Configuration file: /var/run/hostapd-phy0.conf
+Using interface wlan0 with hwaddr 14:cc:20:48:d0:10 and ssid "Repeater for Casasuena"
+random: Only 13/20 bytes of strong random data available from /dev/random
+random: Not enough entropy pool available for secure operations
+WPA: Not enough entropy in random pool for secure operations - update keys later when the first station connects
+Configuration file: /var/run/hostapd-phy0.conf
+Using interface wlan0 with hwaddr 14:cc:20:48:d0:10 and ssid "Repeater for Casasuena"
+random: Cannot read from /dev/random: Resource temporarily unavailable
+random: Only 0/20 bytes of strong random data available from /dev/random
+random: Not enough entropy pool available for secure operations
+WPA: Not enough entropy in random pool for secure operations - update keys later when the first station connects
+KARMA: CTRL_IFACE DISABLED
+random: Cannot read from /dev/random: Resource temporarily unavailable
+random: Only 0/20 bytes of strong random data available from /dev/random
+random: Not enough entropy pool available for secure operations
+WPA: Not enough entropy in random pool to proceed - reject first 4-way handshake
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED a0:88:b4:a9:33:60
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED a0:88:b4:a9:33:60
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+WPA: wpa_sm_step() called recursively
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+WPA: wpa_sm_step() called recursively
+WPA: wpa_sm_step() called recursively
+WPA: wpa_sm_step() called recursively
+WPA: wpa_sm_step() called recursively
+WPA: wpa_sm_step() called recursively
+WPA: wpa_sm_step() called recursively
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED a0:88:b4:a9:33:60
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+WPA: wpa_sm_step() called recursively
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-DISCONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-DISCONNECTED a0:88:b4:a9:33:60
+wlan0: AP-STA-DISCONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-DISCONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-DISCONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-DISCONNECTED 84:38:38:f2:3b:29
+Could not set channel for kernel driver
+wlan0: AP-STA-CONNECTED 04:54:53:87:99:79
+wlan0: AP-STA-CONNECTED 90:48:9a:42:23:e5
+wlan0: AP-STA-CONNECTED 84:38:38:f2:3b:29
+wlan0: AP-STA-CONNECTED e0:c9:7a:e6:9b:4b
+wlan0: AP-STA-CONNECTED dc:f1:10:81:e2:9e
+wlan0: AP-STA-CONNECTED a0:88:b4:a9:33:60

@@ -1,0 +1,30 @@
+config wifi-iface
+	option device radio0
+	option network wan
+	option mode sta
+	option ssid 'Casasuena'
+	option encryption psk
+	option key 'CS97654xdB81'
+
+config wifi-device  radio0
+	option type     mac80211
+	option channel  11
+	option hwmode	11ng
+	option macaddr	14:cc:20:48:d0:10
+	option htmode	HT20
+	list ht_capab	SHORT-GI-20
+	list ht_capab	SHORT-GI-40
+	list ht_capab	RX-STBC1
+	list ht_capab	DSSS_CCK-40
+	# REMOVE THIS LINE TO ENABLE WIFI:
+	#  
+
+config wifi-iface
+	option device radio0
+	option network lan
+	option mode ap
+	option ssid 'Repeater for Casasuena'
+	option encryption psk
+	option key '00112233445566'
+	
+

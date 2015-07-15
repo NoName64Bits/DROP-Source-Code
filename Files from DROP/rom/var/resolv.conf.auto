@@ -1,0 +1,4 @@
+# Interface wan
+nameserver 80.58.61.254
+nameserver 80.58.61.250
+search domain.name

@@ -1,0 +1,4 @@
+/lib/firmware/htc_9271.fw
+/lib/firmware/htc_7010.fw
+/etc/modules.d/55-ath9k-htc
+/lib/modules/3.3.8/ath9k_htc.ko

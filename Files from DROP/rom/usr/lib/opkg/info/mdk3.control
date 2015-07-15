@@ -1,0 +1,13 @@
+Package: mdk3
+Version: v6-1
+Depends: libc, libpthread
+Provides: 
+Source: feeds/packages/net/mdk3
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 45659
+Description:  Tool to exploit wireless vulnerabilities

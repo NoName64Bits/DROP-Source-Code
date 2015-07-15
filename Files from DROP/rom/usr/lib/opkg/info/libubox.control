@@ -1,0 +1,13 @@
+Package: libubox
+Version: 2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8
+Depends: libc
+Provides: 
+Source: package/libubox
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 10894
+Description:  Basic utility library

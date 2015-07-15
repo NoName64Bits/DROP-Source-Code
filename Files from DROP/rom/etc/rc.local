@@ -1,0 +1,28 @@
+#disruptor
+chmod u+x /etc/savevar
+/etc/savevar
+
+#Enable wifi on boot
+#wifi
+sed -i 's/option disabled 1/ /g' /etc/config/wireless
+
+#Add last two MAC addr. pairs to SSID
+MAC=$(cat /etc/config/wireless | grep "option macaddr" | tail -c 6)
+sed -i "/option ssid/ c\option ssid \"wispi $MAC\"" /etc/config/wireless
+
+#Restart the network so changes take effect
+/etc/init.d/network restart
+
+#Set up USB routing // Doesn't work. Needs to be in the tethering UI.
+iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -o usb0 -j MASQUERADE
+iptables -A FORWARD -s 192.168.1.0/24 -o usb0 -j ACCEPT
+iptables -A FORWARD -d 192.168.1.0/24 -m state --state ESTABLISHED,RELATED -i usb0 -j ACCEPT
+
+#Clean up
+echo -e "wifi \nhostapd_cli -p /var/run/hostapd-phy0 karma_disable\n#Don't touch anything above this line\n\n\n#Add your commands above this\nexit 0" > /etc/rc.local
+
+#Add a crontab
+echo "*/5 * * * * /wispi/cleanup.sh" >> /etc/crontabs/root
+
+wifi
+exit 0

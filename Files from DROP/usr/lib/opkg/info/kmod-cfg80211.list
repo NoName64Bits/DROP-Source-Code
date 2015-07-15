@@ -1,0 +1,4 @@
+/lib/modules/3.3.8/cfg80211.ko
+/lib/modules/3.3.8/compat.ko
+/lib/wifi/mac80211.sh
+/etc/modules.d/20-cfg80211
